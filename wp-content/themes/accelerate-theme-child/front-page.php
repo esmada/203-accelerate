@@ -29,7 +29,7 @@ get_header(); ?>
 				<h4>From the Blog</h4>
 				<?php query_posts('posts_per_page=1'); ?>
 					<?php while ( have_posts()) : the_post(); ?>
-						<h3><? php the_title(); ?></h3>
+						<h3><?php the_title(); ?></h3>
 						<?php the_excerpt(); ?>
 					<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
