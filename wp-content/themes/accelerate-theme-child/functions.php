@@ -18,6 +18,7 @@ function accelerate_child_scripts(){
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
 
+
 function create_custom_post_types() {
     register_post_type( 'case_studies',
         array(
