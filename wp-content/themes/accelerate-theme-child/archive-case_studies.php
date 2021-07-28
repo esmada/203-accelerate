@@ -21,12 +21,11 @@ get_header(); ?>
       <article class="case-study clearfix">
         <aside class="case-study-sidebar">
           <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <h4><span><?php echo $services; ?></span></h4>
+         <h4><?php echo $services; ?></h4>
 
-          <?php the_content(); ?>
+          <?php the_excerpt(); ?>
 
-          <p><strong><a href="<?php the_permalink(); ?>">View Project &#187;</a></strong></p>
-
+          <p class="read-more-link"><a href="<?php the_permalink(); ?>">View Project &rsaquo;</a></p>
         </aside>
 
         <div class="case-study-images">
@@ -37,7 +36,6 @@ get_header(); ?>
           </a>
         </div>
       </article>
-
 
 			<?php endwhile; // end of the loop. ?>
 

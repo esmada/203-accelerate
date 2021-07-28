@@ -103,6 +103,7 @@
 .case-study-sidebar p {
     margin: 2em 0;
 }
+
 div.case-study-images {
 	margin-top: 3em;
 }
@@ -115,10 +116,21 @@ div.case-study-images img {
 
 /*Case Study Archive*/
 
+.case-study-sidebar {
+  padding: 50px 0;
+}
+.case-study-sidebar h2 {
+  font: 600 1.5em 'Open Sans', Arial, sans-serif;
+}
 
+.case-study-sidebar h4 {
+  font: 400 .875em 'Open Sans', Arial, sans-serif;
+  color: #878787;
+}
 
-.case-study-sidebar p {
-  color: #45ac9d;
+div.case-study-images img {
+	width: 100%;
+	height: auto;
 }
 
 /* Media Queries */
