@@ -113,6 +113,14 @@ div.case-study-images img {
 }
 /*END Case Studies*/
 
+/*Case Study Archive*/
+
+
+
+.case-study-sidebar p {
+  color: #45ac9d;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
