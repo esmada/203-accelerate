@@ -97,8 +97,8 @@
     font: 400 .875em/1.25 'Open Sans';
     margin: 1em 0;
 }
-.case-study h4 span {
-    color: #878787;
+.case-study .client-name {
+    color: #2b2b2b;
 }
 .case-study-sidebar p {
     margin: 2em 0;

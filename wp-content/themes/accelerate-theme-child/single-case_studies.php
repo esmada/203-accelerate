@@ -26,11 +26,11 @@ get_header(); ?>
   		<aside class="case-study-sidebar">
     		<h2><?php the_title(); ?></h2>
     		<h4><span><?php echo $services; ?></span></h4>
-    		<h4>Client: <?php echo $client; ?></h4>
+    		<h4 class="client-name">Client: <?php echo $client; ?></h4>
 
 				<?php the_content(); ?>
 
-				<p><strong><a href="<?php echo $link; ?>">Visit Live Site</a></strong></p>
+				<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site &rsaquo;</a></p>
 			</aside>
 
 			<div class="case-study-images">
