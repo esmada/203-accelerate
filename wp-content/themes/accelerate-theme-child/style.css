@@ -176,6 +176,54 @@ div.case-study-images img {
 
 
 
+/*CONTACT FORM*/
+
+.page-id-47359 .site-content {
+  width: 700px;
+}
+
+h2 {
+  font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+
+.nf-form-fields-required {
+  display: none;
+}
+
+.nf-form-wrap {
+  padding-top: 50px;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+
+
+
+#nf-field-2-container, #nf-field-1-container {
+  width: 48%;
+  display: inline-block;
+}
+
+#nf-field-2-container {
+  float: right;
+}
+
+#nf-field-1, #nf-field-2, #nf-field-3 {
+    background-color: #ffffff;
+}
+
+#nf-field-4 {
+  background: #45ac9d;
+  width: 30%;
+  float: right;
+}
+
+
+
+
+
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
