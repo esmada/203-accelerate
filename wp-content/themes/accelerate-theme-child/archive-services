@@ -1,0 +1,45 @@
+
+
+<?php
+/**
+ * Template Name: About
+ * Template Post Type: post, page
+ *
+ * @package WordPress
+ * @subpackage Accelerate Marketing
+ * @since Accelerate Marketing 2.0
+ */
+
+get_header(); ?>
+
+
+		<div id="primary" class="about home-page hero-content">
+			<div class="about-header-content">
+				<p>Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</p>
+			</div>
+		</div>
+
+		<div class="main-content" role="main">
+			<?php while ( have_posts() ) : the_post();
+				$service = get_field('service');
+				$description = get_field('description');
+				$image = get_field('image')
+			/*	$size = "full"; */
+			?>
+			<div class="about-post">
+				<h2><?php the_title(); ?></h2>
+
+				<?php the_content(); ?>
+			<?php endwhile; // end of the loop. ?>
+			</div>
+			<article class="services clearfix">
+				<h4><?php echo $service; ?></h4>
+				<?php if($image) {
+					echo wp_get_attachment_image( $image, $size);
+				} ?>
+				<p><?php echo $description; ?></p>
+			</article>
+
+		</div><!-- .main-content -->
+
+<?php get_footer(); ?>

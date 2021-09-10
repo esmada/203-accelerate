@@ -221,6 +221,95 @@ h2 {
 }
 
 
+/*About Page*/
+.about-hero-content {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+div .about-header-content {
+  margin: 0;
+  padding: 0;
+}
+
+.about-header-content p {
+  color: #ffffff;
+  font: 600 1.5em 'Open Sans', Arial, sans-serif;
+  width: 55%;
+  padding: 75px;
+  text-align: center;
+  margin-top: 0;
+}
+
+#about {
+
+  max-width: 960px;
+  margin: auto;
+  padding: 0;
+}
+
+.about-main {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.about-main h2 {
+  font: 700 1em 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.about-main p {
+  width: 55%;
+}
+
+.about-service{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.individual-about-service {
+  display: block;
+}
+
+.individual-about-service:nth-child(even) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+
+.individual-about-service ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.individual-about-service li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+
+
+#about-service-text {
+  width: 60%;
+}
+
+.about-contact-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  margin: 50px auto 0;
+  height: 165px;
+  padding: 50px;
+  border-top: 1px solid #bfbfbf;
+
+}
 
 
 
