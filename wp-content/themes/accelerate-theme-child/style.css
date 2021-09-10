@@ -270,14 +270,9 @@ div .about-header-content {
   flex-direction: row;
 
 }
+
 .individual-about-service {
   display: block;
-}
-
-.individual-about-service:nth-child(even) {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column-reverse;
 }
 
 .individual-about-service ul {
@@ -286,14 +281,18 @@ div .about-header-content {
   flex-direction: column;
 }
 
+.about-service li:nth-child(even) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
 .individual-about-service li {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 50px 0;
+  padding: 40px 0;
 }
-
-
 
 #about-service-text {
   width: 60%;
