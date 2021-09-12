@@ -60,5 +60,14 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+	<section class="twitter-widget">
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+				<h4>Twitter Feed</h4>
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			</div>
+			<a href="https://twitter.com/Erin65716599">Follow Us &rsaquo;</a>
+	</section>
+<?php endif; ?>
 
 <?php get_footer(); ?>
