@@ -13,7 +13,7 @@ get_header(); ?>
 	<div id="primary" class="hero-content error-page">
 		<div id="error-page-text" class="main-content" role="main">
 			<h2>Oops!</h2>
-			<p>Not the page you were expecting? Sorry about that.</p>
+			<p>Not the page you expected? <br>Sorry about that.</p>
 			<a class="button" href="<?php echo home_url() ?>">Home</a>
 		</div><!-- .main-content -->
 
