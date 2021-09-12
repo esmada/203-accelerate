@@ -377,7 +377,19 @@ input[type="submit"] {
     padding-bottom: 30px;
 }
 
+/* Comments */
+  .comment-form-cookies-consent {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0;
+  }
 
+input[type="checkbox"] {
+  width: 31px;
+  border: #BFBFBF;
+  margin-right: 15px;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {
